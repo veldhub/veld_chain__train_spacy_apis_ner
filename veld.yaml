@@ -1,0 +1,16 @@
+x-veld:
+  chain:
+    scope:
+      - "ETL"
+
+services:
+  veld:
+    extends:
+      file: "./veld_executable_6_convert_apis_ner_to_spacy_docbin/veld.yaml"
+      service: veld
+    volumes:
+      - ./veld_data_5_apis_ner_conll2003/json/cleaned/apis_ner__simplified_entities.json:/veld/input/data.json
+      - ./veld_data_5_apis_ner_conll2003/spacy/:/veld/output/1/
+      - ./:/veld/output/2/
+    # TODO: Look into passing CLI args as env variables perhaps?
+    command: python /veld/executable/convert.py --train 80 --dev 10 --eval 10  --seed 42
