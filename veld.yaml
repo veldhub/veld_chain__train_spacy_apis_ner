@@ -10,7 +10,8 @@ services:
       service: veld
     volumes:
       - ./spacy_docbin/:/veld/input/
-      - ./veld_data_6_apis_ner_models/:/veld/output/
+      - ./veld_data_6_apis_ner_models/:/veld/output/1/
+      - ./logs/:/veld/output/2/
     depends_on:
       veld_convert:
         condition: service_completed_successfully
@@ -22,7 +23,9 @@ services:
     volumes:
       - ./veld_data_5_apis_ner_conll2003/json/cleaned/apis_ner__simplified_entities.json:/veld/input/data.json
       - ./spacy_docbin/:/veld/output/1/
-      - ./:/veld/output/2/
-    # TODO: Look into passing CLI args as env variables perhaps?
-#    command: python /veld/executable/convert.py --train 80 --dev 10 --eval 10  --seed 42
-    command: echo convert
+      - ./logs/:/veld/output/2/
+    environment:
+      train: 80
+      dev: 10
+      eval: 10
+      seed: 42
