@@ -7,3 +7,6 @@
 [submodule "veld_executable_7_train_spacy_ner"]
 	path = veld_executable_7_train_spacy_ner
 	url = git@github.com:steffres/veld_executable_7_train_spacy_ner.git
+[submodule "veld_data_6_apis_ner_models"]
+	path = veld_data_6_apis_ner_models
+	url = git@github.com:steffres/veld_data_6_apis_ner_models.git
