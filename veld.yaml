@@ -10,6 +10,7 @@ services:
       service: veld
     volumes:
       - ./spacy_docbin/:/veld/input/
+      - ./veld_data_6_apis_ner_models/:/veld/output/
     depends_on:
       veld_convert:
         condition: service_completed_successfully
