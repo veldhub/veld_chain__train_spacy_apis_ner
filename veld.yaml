@@ -6,6 +6,16 @@ x-veld:
 services:
   veld:
     extends:
+      file: "./veld_executable_7_train_spacy_ner/veld.yaml"
+      service: veld
+    volumes:
+      - ./spacy_docbin/:/veld/input/
+    depends_on:
+      veld_convert:
+        condition: service_completed_successfully
+
+  veld_convert:
+    extends:
       file: "./veld_executable_6_convert_apis_ner_to_spacy_docbin/veld.yaml"
       service: veld
     volumes:
@@ -13,4 +23,5 @@ services:
       - ./spacy_docbin/:/veld/output/1/
       - ./:/veld/output/2/
     # TODO: Look into passing CLI args as env variables perhaps?
-    command: python /veld/executable/convert.py --train 80 --dev 10 --eval 10  --seed 42
+#    command: python /veld/executable/convert.py --train 80 --dev 10 --eval 10  --seed 42
+    command: echo convert
