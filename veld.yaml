@@ -1,12 +1,15 @@
 x-veld:
   chain:
-    scope:
-      - "ETL"
+    about:
+      description: ""
+      scope:
+        - "NLP"
+        - "Machine Learning"
 
 services:
   veld:
     extends:
-      file: "./veld_executable_7_train_spacy_ner/veld.yaml"
+      file: ./veld_executable_7_train_spacy_ner/veld.yaml
       service: veld
     volumes:
       - ./spacy_docbin/:/veld/input/
@@ -18,7 +21,7 @@ services:
 
   veld_convert:
     extends:
-      file: "./veld_executable_6_convert_apis_ner_to_spacy_docbin/veld.yaml"
+      file: ./veld_executable_6_convert_apis_ner_to_spacy_docbin/veld.yaml
       service: veld
     volumes:
       - ./veld_data_5_apis_ner_conll2003/json/cleaned/apis_ner__simplified_entities.json:/veld/input/data.json
@@ -29,3 +32,4 @@ services:
       dev: 10
       eval: 10
       seed: 42
+
