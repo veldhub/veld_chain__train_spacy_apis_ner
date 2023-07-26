@@ -16,21 +16,21 @@ services:
       - ./spacy_docbin/:/veld/input/
       - ./veld_data_6_apis_ner_models/:/veld/output/1/
       - ./logs/:/veld/output/2/
-    depends_on:
-      veld_convert:
-        condition: service_completed_successfully
-
-  veld_convert:
-    extends:
-      file: ./veld_executable_6_convert_apis_ner_to_spacy_docbin/veld.yaml
-      service: veld
-    volumes:
-      - ./veld_data_5_apis_ner_gold/json/cleaned/apis_ner__simplified_entities.json:/veld/input/data.json
-      - ./spacy_docbin/:/veld/output/1/
-      - ./logs/:/veld/output/2/
-    environment:
-      train: 80
-      dev: 10
-      eval: 10
-      seed: 42
-
+#    depends_on:
+#      veld_convert:
+#        condition: service_completed_successfully
+#
+#  veld_convert:
+#    extends:
+#      file: ./veld_executable_6_convert_apis_ner_to_spacy_docbin/veld.yaml
+#      service: veld
+#    volumes:
+#      - ./veld_data_5_apis_ner_gold/json/cleaned/apis_ner__simplified_entities.json:/veld/input/data.json
+#      - ./spacy_docbin/:/veld/output/1/
+#      - ./logs/:/veld/output/2/
+#    environment:
+#      train: 80
+#      dev: 10
+#      eval: 10
+#      seed: 42
+#
