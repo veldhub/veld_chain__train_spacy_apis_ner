@@ -13,7 +13,7 @@ Reproducable at commit: 4f6736c2d6fdcb37395a73767b2592d005227182
 
 #### m2
 
-Same as m2, but with pre-trained vectors from `de_core_news_lg`
+Same as m1, but with pre-trained vectors from `de_core_news_lg`.
 
 Evaluation scores:
 - P: 77.99 
