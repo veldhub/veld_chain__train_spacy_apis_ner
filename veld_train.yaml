@@ -14,6 +14,6 @@ services:
       service: veld
     volumes:
       - ./spacy_docbin/:/veld/input/
-      - ./veld_data_6_apis_ner_models/models/m1/model/:/veld/output/1/
-      - ./veld_data_6_apis_ner_models/models/m1/logs/:/veld/output/2/
+      - ./veld_data_6_apis_ner_models/models/m2/model/:/veld/output/1/
+      - ./veld_data_6_apis_ner_models/models/m2/logs/:/veld/output/2/
 
