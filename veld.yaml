@@ -1,7 +1,7 @@
 x-veld:
   chain:
     about:
-      description: "A NER trainig setup, utilizing spacy3's config system."
+      description: "Full NER trainig setup, including ETL and spacy3's config system."
       scope:
         - "NLP"
         - "Machine Learning"
@@ -10,22 +10,14 @@ x-veld:
 services:
   veld:
     extends:
-      file: ./veld_executable_7_train_spacy_ner/veld.yaml
+      file: ./veld_train.yaml
       service: veld
-    volumes:
-      - ./spacy_docbin/:/veld/input/
-      - ./veld_data_6_apis_ner_models/models/m1/model/:/veld/output/1/
-      - ./veld_data_6_apis_ner_models/models/m1/logs/:/veld/output/2/
     depends_on:
       veld_convert:
         condition: service_completed_successfully
 
   veld_convert:
     extends:
-      file: ./veld_executable_6_convert_ner_json_to_spacy_docbin/veld.yaml
+      file: ./veld_convert.yaml
       service: veld
-    volumes:
-      - ./veld_data_5_apis_ner_gold/json/cleaned/apis_ner__simplified_entities.json:/veld/input/data.json
-      - ./spacy_docbin/:/veld/output/1/
-      - ./logs/:/veld/output/2/
 

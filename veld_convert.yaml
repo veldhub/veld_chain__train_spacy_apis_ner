@@ -1,0 +1,17 @@
+x-veld:
+  chain:
+    about:
+      description: "converting json into spacy docbin"
+      scope:
+        - "ETL"
+
+services:
+  veld:
+    extends:
+      file: ./veld_executable_6_convert_ner_json_to_spacy_docbin/veld.yaml
+      service: veld
+    volumes:
+      - ./veld_data_5_apis_ner_gold/json/cleaned/apis_ner__simplified_entities.json:/veld/input/data.json
+      - ./spacy_docbin/:/veld/output/1/
+      - ./spacy_docbin/:/veld/output/2/
+

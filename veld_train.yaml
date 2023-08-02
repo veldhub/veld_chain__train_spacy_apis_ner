@@ -1,0 +1,19 @@
+x-veld:
+  chain:
+    about:
+      description: "A NER trainig setup, utilizing spacy3's config system."
+      scope:
+        - "NLP"
+        - "Machine Learning"
+        - "Named Entity Recognition"
+
+services:
+  veld:
+    extends:
+      file: ./veld_executable_7_train_spacy_ner/veld.yaml
+      service: veld
+    volumes:
+      - ./spacy_docbin/:/veld/input/
+      - ./veld_data_6_apis_ner_models/models/m1/model/:/veld/output/1/
+      - ./veld_data_6_apis_ner_models/models/m1/logs/:/veld/output/2/
+
