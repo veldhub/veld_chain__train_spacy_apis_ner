@@ -24,6 +24,11 @@ Reproducable at commit: 6c352cd331ea893ccf9f0daf931c93b2832389a9
 
 #### m3
 
-Training with Transformer. Config as suggested by spaCy.
+Basic training with Transformer. Config as suggested by spaCy.
 
-Reproducable at commit: 
+Evaluation scores:
+- P: 79.72 
+- R: 84.28 
+- F: 81.93 
+
+Reproducable at commit: 5861ed24c534b108759bb6bbb0bc3e7e742aabb6  
