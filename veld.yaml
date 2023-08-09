@@ -2,7 +2,7 @@ x-veld:
   chain:
     about:
       description: "Full NER trainig setup, including ETL and spacy3's config system."
-      scope:
+      topic:
         - "NLP"
         - "Machine Learning"
         - "Named Entity Recognition"

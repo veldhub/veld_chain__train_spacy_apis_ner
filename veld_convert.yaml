@@ -2,8 +2,7 @@ x-veld:
   chain:
     about:
       description: "converting json into spacy docbin"
-      scope:
-        - "ETL"
+      topic: "ETL"
 
 services:
   veld:
@@ -13,5 +12,5 @@ services:
     volumes:
       - ./veld_data_5_apis_ner_gold/json/cleaned/apis_ner__simplified_entities.json:/veld/input/data.json
       - ./spacy_docbin/:/veld/output/a/
-      - ./spacy_docbin/:/veld/output/b/
+      - ./veld_convert.log:/veld/output/b/convert.log
 
