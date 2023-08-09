@@ -1,7 +1,7 @@
 x-veld:
   chain:
     about:
-      description: "Full NER trainig setup, including ETL and spacy3's config system."
+      description: "Full NER trainig setup, including ETL and spaCy3's config system."
       topic:
         - "NLP"
         - "Machine learning"
