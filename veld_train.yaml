@@ -4,8 +4,8 @@ x-veld:
       description: "A NER trainig setup, utilizing spacy3's config system."
       topic:
         - "NLP"
-        - "Machine Learning"
-        - "Named Entity Recognition"
+        - "Machine learning"
+        - "Named entity recognition"
 
 services:
   veld:
@@ -13,7 +13,9 @@ services:
       file: ./veld_executable_7_train_spacy_ner/veld.yaml
       service: veld
     volumes:
-      - ./spacy_docbin/:/veld/input/
+      - ./spacy_docbin/train.spacy:/veld/input/train.spacy
+      - ./spacy_docbin/dev.spacy:/veld/input/dev.spacy
+      - ./spacy_docbin/eval.spacy:/veld/input/eval.spacy
       - ./veld_data_6_apis_ner_models/models/m3/model/:/veld/output/a/
       - ./veld_data_6_apis_ner_models/models/m3/logs/:/veld/output/b/
 

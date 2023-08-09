@@ -4,8 +4,8 @@ x-veld:
       description: "Full NER trainig setup, including ETL and spacy3's config system."
       topic:
         - "NLP"
-        - "Machine Learning"
-        - "Named Entity Recognition"
+        - "Machine learning"
+        - "Named entity recognition"
 
 services:
   veld:
