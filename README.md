@@ -11,7 +11,7 @@ Evaluation scores:
 - R: 75.56
 - F: 75.46
 
-Reproducable at: https://github.com/acdh-oeaw/veld_chain_7_train/-/commit/4f6736c2d6fdcb37395a73767b2592d005227182
+Reproducable at: https://github.com/acdh-oeaw/veld_chain_7_train/commit/4f6736c2d6fdcb37395a73767b2592d005227182
 
 #### m2
 
@@ -22,7 +22,7 @@ Evaluation scores:
 - R: 79.85 
 - F: 78.91 
 
-Reproducable at: https://github.com/acdh-oeaw/veld_chain_7_train/-/commit/6c352cd331ea893ccf9f0daf931c93b2832389a9
+Reproducable at: https://github.com/acdh-oeaw/veld_chain_7_train/commit/6c352cd331ea893ccf9f0daf931c93b2832389a9
 
 #### m3
 
@@ -33,7 +33,7 @@ Evaluation scores:
 - R: 84.28 
 - F: 81.93 
 
-Reproducable at: https://github.com/acdh-oeaw/veld_chain_7_train/-/commit/5861ed24c534b108759bb6bbb0bc3e7e742aabb6
+Reproducable at: https://github.com/acdh-oeaw/veld_chain_7_train/commit/5861ed24c534b108759bb6bbb0bc3e7e742aabb6
 
 #### m4
 
