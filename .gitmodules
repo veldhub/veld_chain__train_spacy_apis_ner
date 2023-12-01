@@ -10,3 +10,6 @@
 [submodule "veld_data_5_apis_oebl__ner_gold"]
 	path = veld_data_5_apis_oebl__ner_gold
 	url = ../veld_data_5_apis_oebl__ner_gold/
+[submodule "veld_executable_11_publish_to_hf"]
+	path = veld_executable_11_publish_to_hf
+	url = ../veld_executable_11_publish_to_hf
