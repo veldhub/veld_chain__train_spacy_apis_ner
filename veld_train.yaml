@@ -13,10 +13,11 @@ services:
       file: ./veld_executable_7_train_spacy_ner/veld.yaml
       service: veld
     volumes:
+      - ./veld_executable_7_train_spacy_ner/src/config2.cfg:/veld/input/config.cfg
       - ./spacy_docbin/train.spacy:/veld/input/train.spacy
       - ./spacy_docbin/dev.spacy:/veld/input/dev.spacy
       - ./spacy_docbin/eval.spacy:/veld/input/eval.spacy
-      - ./veld_data_6_apis_ner_models/models/m3/model/:/veld/output/a/
-      - ./veld_data_6_apis_ner_models/models/m3/logs/train.log:/veld/output/train.log
-      - ./veld_data_6_apis_ner_models/models/m3/logs/eval.log:/veld/output/eval.log
+      - ./veld_data_6_apis_ner_models/models/m4/model/:/veld/output/model/
+      - ./veld_data_6_apis_ner_models/models/m4/logs/train.log:/veld/output/train.log
+      - ./veld_data_6_apis_ner_models/models/m4/logs/eval.log:/veld/output/eval.log
 
