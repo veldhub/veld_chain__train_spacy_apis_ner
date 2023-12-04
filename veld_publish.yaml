@@ -5,7 +5,7 @@ services:
       file: ./veld_executable_11_publish_to_hf/veld.yaml
       service: veld
     volumes:
-      - ./veld_data_6_apis_ner_models/models/m3/model/model-best/:/veld/input/model/
+      - ./veld_data_6_apis_ner_models/models/m3/model/model-best/:/veld/input/
     environment:
       - model_name=APIS_OEBL_NER_trf
       - version=1.0
