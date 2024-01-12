@@ -13,6 +13,7 @@ services:
       file: ./veld_executable_7_train_spacy_ner/veld.yaml
       service: veld
     volumes:
+      - ./:/home/docker_user
       - ./veld_executable_7_train_spacy_ner/src/config2.cfg:/veld/input/config.cfg
       - ./spacy_docbin/train.spacy:/veld/input/train.spacy
       - ./spacy_docbin/dev.spacy:/veld/input/dev.spacy
@@ -20,4 +21,5 @@ services:
       - ./veld_data_6_apis_ner_models/models/m4/model/:/veld/output/model/
       - ./veld_data_6_apis_ner_models/models/m4/logs/train.log:/veld/output/train.log
       - ./veld_data_6_apis_ner_models/models/m4/logs/eval.log:/veld/output/eval.log
+    working_dir: /home/docker_user
 
