@@ -3,9 +3,9 @@ services:
   misc:
     build: .
     volumes:
-      - ../:/home/docker_user
+      - ../:/home/
     ports:
       - 8888:8888
-    working_dir: /home/docker_user/
+    working_dir: /home/
     command: jupyter notebook --ip='*' --NotebookApp.token='' --NotebookApp.password=''
 
