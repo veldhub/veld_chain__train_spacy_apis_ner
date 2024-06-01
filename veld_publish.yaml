@@ -1,6 +1,6 @@
 
 services:
-  veld:
+  veld_publish:
     extends:
       file: ./veld_executable_11_publish_to_hf/veld.yaml
       service: veld

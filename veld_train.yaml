@@ -8,7 +8,7 @@ x-veld:
         - "Named entity recognition"
 
 services:
-  veld:
+  veld_train:
     extends:
       file: ./veld_executable_7_train_spacy_ner/veld.yaml
       service: veld

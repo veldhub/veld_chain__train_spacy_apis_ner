@@ -5,7 +5,7 @@ x-veld:
       topic: "ETL"
 
 services:
-  veld:
+  veld_convert:
     extends:
       file: ./veld_executable_6_convert_ner_json_to_spacy_docbin/veld.yaml
       service: veld
