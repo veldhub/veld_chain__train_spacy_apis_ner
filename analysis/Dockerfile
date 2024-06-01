@@ -5,7 +5,4 @@ RUN pip install de_core_news_lg@https://github.com/explosion/spacy-models/releas
 RUN pip install ipython
 RUN pip install notebook==7.0.6
 RUN pip install matplotlib==3.8.2
-RUN useradd -u 1000 docker_user
-RUN chown -R docker_user:docker_user /home/
-USER docker_user
 
