@@ -7,7 +7,7 @@ x-veld:
 services:
   veld_convert:
     extends:
-      file: ./veld_executable_6_convert_ner_json_to_spacy_docbin/veld.yaml
+      file: ./veld_code_6_convert_ner_json_to_spacy_docbin/veld.yaml
       service: veld
     volumes:
       - ./veld_data_5_apis_oebl__ner_gold/data/apis_oebl__ner__3_cleaned_simplified.json:/veld/input/data.json

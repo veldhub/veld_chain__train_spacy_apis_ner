@@ -4,7 +4,7 @@ x-veld:
 services:
   veld_publish:
     extends:
-      file: ./veld_executable_11_publish_to_hf/veld.yaml
+      file: ./veld_code_11_publish_to_hf/veld.yaml
       service: veld
     volumes:
       - ./veld_data_6_apis_ner_models/models/m3/model/model-best/:/veld/input/

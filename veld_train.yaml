@@ -10,11 +10,11 @@ x-veld:
 services:
   veld_train:
     extends:
-      file: ./veld_executable_7_train_spacy_ner/veld.yaml
+      file: ./veld_code_7_train_spacy_ner/veld.yaml
       service: veld
     volumes:
       - ./:/home/docker_user
-      - ./veld_executable_7_train_spacy_ner/src/config2.cfg:/veld/input/config.cfg
+      - ./veld_code_7_train_spacy_ner/src/config2.cfg:/veld/input/config.cfg
       - ./spacy_docbin/train.spacy:/veld/input/train.spacy
       - ./spacy_docbin/dev.spacy:/veld/input/dev.spacy
       - ./spacy_docbin/eval.spacy:/veld/input/eval.spacy
