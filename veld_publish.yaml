@@ -1,3 +1,5 @@
+x-veld:
+  chain:
 
 services:
   veld_publish:
