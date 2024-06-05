@@ -10,16 +10,16 @@ x-veld:
 services:
   veld_train:
     extends:
-      file: ./veld_code_7_train_spacy_ner/veld.yaml
-      service: veld
+      file: ./veld_code_7_train_spacy_ner/veld_train.yaml
+      service: veld_train
     volumes:
-      - ./:/home/docker_user
-      - ./veld_code_7_train_spacy_ner/src/config2.cfg:/veld/input/config.cfg
-      - ./spacy_docbin/train.spacy:/veld/input/train.spacy
-      - ./spacy_docbin/dev.spacy:/veld/input/dev.spacy
-      - ./spacy_docbin/eval.spacy:/veld/input/eval.spacy
-      - ./veld_data_6_apis_ner_models/models/m4/model/:/veld/output/model/
-      - ./veld_data_6_apis_ner_models/models/m4/logs/train.log:/veld/output/train.log
-      - ./veld_data_6_apis_ner_models/models/m4/logs/eval.log:/veld/output/eval.log
-    working_dir: /home/docker_user
+      - ./spacy_docbin/:/veld/input/
+      - ./veld_data_6_apis_ner_models/:/veld/output/
+    environment:
+      input_spacy_docbin_train: /veld/input/train.spacy
+      input_spacy_docbin_dev: /veld/input/dev.spacy
+      input_spacy_docbin_eval: /veld/input/eval.spacy
+      output_model_path: /veld/output/models/m4/model/
+      output_train_log_path: /veld/output/models/m4/logs/train.log
+      output_eval_log_path: /veld/output/models/m4/logs/eval.log
 
