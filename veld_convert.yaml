@@ -2,7 +2,7 @@ x-veld:
   chain:
     about:
       description: "converting json into spaCy docbin"
-      topic: "ETL"
+      topics: "ETL"
 
 services:
   veld_convert:

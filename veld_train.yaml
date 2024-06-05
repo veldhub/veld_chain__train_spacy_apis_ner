@@ -1,8 +1,8 @@
 x-veld:
   chain:
     about:
-      description: "A NER trainig setup, utilizing spaCy3's config system."
-      topic:
+      description: "A NER trainig setup, utilizing spaCy 3's config system."
+      topics:
         - "NLP"
         - "Machine learning"
         - "Named entity recognition"
