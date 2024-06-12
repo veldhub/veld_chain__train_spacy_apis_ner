@@ -14,12 +14,12 @@ services:
       service: veld_train
     volumes:
       - ./spacy_docbin/:/veld/input/
-      - ./veld_data_6_apis_ner_models/:/veld/output/
+      - ./veld_data_6_apis_ner_models/models/m4/:/veld/output/
     environment:
-      input_spacy_docbin_train: /veld/input/train.spacy
-      input_spacy_docbin_dev: /veld/input/dev.spacy
-      input_spacy_docbin_eval: /veld/input/eval.spacy
-      output_model_path: /veld/output/models/m4/model/
-      output_train_log_path: /veld/output/models/m4/logs/train.log
-      output_eval_log_path: /veld/output/models/m4/logs/eval.log
+      in_train_docbin_file: "train.spacy"
+      in_dev_docbin_file: "dev.spacy"
+      in_eval_docbin_file: "eval.spacy"
+      out_model_folder: "model"
+      out_train_log_file: "logs/train.log"
+      out_eval_log_file: "logs/eval.log"
 
