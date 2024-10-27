@@ -1,11 +1,10 @@
 x-veld:
   chain:
-    about:
-      description: "cleaning and converting json into spaCy docbin"
-      topics:
-        - "ETL"
-        - "NLP"
-        - "Machine learning"
+    description: "cleaning and converting json into spaCy docbin"
+    topics:
+      - "ETL"
+      - "NLP"
+      - "Machine learning"
 
 services:
   veld_convert:
