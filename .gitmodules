@@ -1,0 +1,6 @@
+[submodule "data/veld_data__apis_oebl__ner_gold"]
+	path = data/veld_data__apis_oebl__ner_gold
+	url = https://github.com/veldhub/veld_data__apis_oebl__ner_gold.git
+[submodule "code/veld_code__train_spacy_ner"]
+	path = code/veld_code__train_spacy_ner
+	url = https://github.com/veldhub/veld_code__train_spacy_ner.git
