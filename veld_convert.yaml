@@ -13,7 +13,7 @@ services:
       service: veld_convert
     volumes:
       - ./data/veld_data__apis_oebl__ner_gold/data_cleaned_simplified/:/veld/input/
-      - ./data/spacy_docbin/:/veld/output/docbin/
+      - ./data/docbin/:/veld/output/docbin/
       - ./:/veld/output/log/
     environment:
       in_json_file: "cleaned_simplified.json"
