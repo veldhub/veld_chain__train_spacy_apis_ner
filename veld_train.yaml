@@ -13,13 +13,14 @@ services:
       service: veld_train
     volumes:
       - ./data/docbin/:/veld/input/docbin/
-      - ./data/training_configs/:/veld/input/config/
-      - ./data/models/m1/:/veld/output/
+      - ./data/configs/:/veld/input/config/
+      - ./data/models/m2/:/veld/output/
     environment:
       in_train_docbin_file: "train.spacy"
       in_dev_docbin_file: "dev.spacy"
       in_eval_docbin_file: "eval.spacy"
-      in_spacy_config: "config1.cfg"
+      in_spacy_config: "config5.cfg"
+      model_base: "de_core_news_lg"
       out_train_log_file: "train.log"
       out_eval_log_file: "eval.log"
 
