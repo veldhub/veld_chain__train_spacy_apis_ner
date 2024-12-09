@@ -1,0 +1,325 @@
+INFO:root:loaded model de_core_news_lg from cache.
+INFO:root:####################### reading args
+INFO:root:perc_train: 80, perc_dev: 10, perc_eval: 10, seed: 42
+INFO:root:####################### converting train data
+INFO:root:####################### merging overlapping entities
+INFO:root:Found overlap between: (subtext: Akad. der bildenden Künste in Wien, ent: [22, 56, 'ORG']), and (subtext: Wien, ent: [52, 56, 'ORG']); merged into (22, 56, 'ORG').
+INFO:root:Found overlap between: (subtext: Univ. Graz, ent: [30, 40, 'ORG']), and (subtext: Graz, ent: [36, 40, 'LOC']); merged into (30, 40, 'ORG').
+INFO:root:Found conflicting entities at subtext: Univ. Graz, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Univ. Graz, ent: [21, 31, 'ORG']), and (subtext: Graz, ent: [27, 31, 'LOC']); merged into (21, 31, 'ORG').
+INFO:root:Found conflicting entities at subtext: Univ. Graz, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Wien, ent: [276, 280, 'LOC']), and (subtext: Wien 1, ent: [276, 282, 'LOC']); merged into (276, 282, 'LOC').
+INFO:root:Found overlap between: (subtext: Freiburger, ent: [14, 24, 'LOC']), and (subtext: Freiburger Univ., ent: [14, 30, 'ORG']); merged into (14, 30, 'LOC').
+INFO:root:Found conflicting entities at subtext: Freiburger, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Laibacher, ent: [199, 208, 'LOC']), and (subtext: Laibacher Lyzealbibl., ent: [199, 220, 'ORG']); merged into (199, 220, 'LOC').
+INFO:root:Found conflicting entities at subtext: Laibacher, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Atelier, ent: [105, 112, 'ORG']), and (subtext: Atelier Karl Bitters, ent: [105, 125, 'ORG']); merged into (105, 125, 'ORG').
+INFO:root:Found overlap between: (subtext: Atelier, ent: [105, 112, 'ORG']), and (subtext: Atelier Karl Bitters, ent: [105, 125, 'PER']); merged into (105, 125, 'ORG').
+INFO:root:Found conflicting entities at subtext: Atelier, 'ORG' and: 'PER'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Univ. Krakau, ent: [30, 42, 'ORG']), and (subtext: Krakau, ent: [36, 42, 'LOC']); merged into (30, 42, 'ORG').
+INFO:root:Found conflicting entities at subtext: Univ. Krakau, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Akad. der bildenden Künste, ent: [7, 33, 'ORG']), and (subtext: Akad. der bildenden Künste in Wien, ent: [7, 41, 'ORG']); merged into (7, 41, 'ORG').
+INFO:root:Found overlap between: (subtext: Dt. Univ. Prag, ent: [21, 35, 'ORG']), and (subtext: Prag, ent: [31, 35, 'LOC']); merged into (21, 35, 'ORG').
+INFO:root:Found conflicting entities at subtext: Dt. Univ. Prag, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Atelier K., ent: [83, 93, 'ORG']), and (subtext: Atelier K. v. Hasenauers, ent: [83, 107, 'ORG']); merged into (83, 107, 'ORG').
+INFO:root:Found overlap between: (subtext: Atelier K., ent: [83, 93, 'ORG']), and (subtext: Atelier K. v. Hasenauers, ent: [83, 107, 'PER']); merged into (83, 107, 'ORG').
+INFO:root:Found conflicting entities at subtext: Atelier K., 'ORG' and: 'PER'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Wiener Möbelfabrik Danhauser, ent: [309, 337, 'ORG']), and (subtext: Möbelfabrik Danhauser, ent: [316, 337, 'ORG']); merged into (309, 337, 'ORG').
+INFO:root:Found overlap between: (subtext: Techn. Hochschule in Karlsruhe, ent: [21, 51, 'ORG']), and (subtext: Karlsruhe, ent: [42, 51, 'LOC']); merged into (21, 51, 'ORG').
+INFO:root:Found conflicting entities at subtext: Techn. Hochschule in Karlsruhe, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Univ. Zürich, ent: [73, 85, 'ORG']), and (subtext: Zürich, ent: [79, 85, 'LOC']); merged into (73, 85, 'ORG').
+INFO:root:Found conflicting entities at subtext: Univ. Zürich, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Techn. Hochschule Charlottenburg, ent: [99, 131, 'ORG']), and (subtext: Charlottenburg, ent: [117, 131, 'LOC']); merged into (99, 131, 'ORG').
+INFO:root:Found conflicting entities at subtext: Techn. Hochschule Charlottenburg, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Atelier, ent: [31, 38, 'ORG']), and (subtext: Atelier Ferstels, ent: [31, 47, 'ORG']); merged into (31, 47, 'ORG').
+INFO:root:Found overlap between: (subtext: Atelier, ent: [31, 38, 'ORG']), and (subtext: Atelier Ferstels, ent: [31, 47, 'PER']); merged into (31, 47, 'ORG').
+INFO:root:Found conflicting entities at subtext: Atelier, 'ORG' and: 'PER'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Ges. für Salzburger Landeskunde, ent: [62, 93, 'ORG']), and (subtext: Salzburger, ent: [71, 81, 'LOC']); merged into (62, 93, 'ORG').
+INFO:root:Found conflicting entities at subtext: Ges. für Salzburger Landeskunde, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Univ. Graz, ent: [150, 160, 'ORG']), and (subtext: Graz, ent: [156, 160, 'LOC']); merged into (150, 160, 'ORG').
+INFO:root:Found conflicting entities at subtext: Univ. Graz, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Univ. Prag, ent: [17, 27, 'ORG']), and (subtext: Prag, ent: [23, 27, 'LOC']); merged into (17, 27, 'ORG').
+INFO:root:Found conflicting entities at subtext: Univ. Prag, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Univ. Berlin, ent: [21, 33, 'ORG']), and (subtext: Berlin, ent: [27, 33, 'LOC']); merged into (21, 33, 'ORG').
+INFO:root:Found conflicting entities at subtext: Univ. Berlin, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Kunsttischlerei C., ent: [53, 71, 'ORG']), and (subtext: Kunsttischlerei C. Leistler, ent: [53, 80, 'ORG']); merged into (53, 80, 'ORG').
+INFO:root:Found overlap between: (subtext: Kunsttischlerei C., ent: [53, 71, 'ORG']), and (subtext: Kunsttischlerei C. Leistler, ent: [53, 80, 'PER']); merged into (53, 80, 'ORG').
+INFO:root:Found conflicting entities at subtext: Kunsttischlerei C., 'ORG' and: 'PER'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Univ. Heidelberg, ent: [4, 20, 'ORG']), and (subtext: Heidelberg, ent: [10, 20, 'LOC']); merged into (4, 20, 'ORG').
+INFO:root:Found conflicting entities at subtext: Univ. Heidelberg, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Augustiner-Chorherrenstift Gurk, ent: [64, 95, 'ORG']), and (subtext: Gurk, ent: [91, 95, 'LOC']); merged into (64, 95, 'ORG').
+INFO:root:Found conflicting entities at subtext: Augustiner-Chorherrenstift Gurk, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Leipziger, ent: [35, 44, 'LOC']), and (subtext: Leipziger Stadttheaters, ent: [35, 58, 'ORG']); merged into (35, 58, 'LOC').
+INFO:root:Found conflicting entities at subtext: Leipziger, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Wr. ABK, ent: [46, 53, 'ORG']), and (subtext: Wr. ABK u., ent: [46, 56, 'ORG']); merged into (46, 56, 'ORG').
+INFO:root:Found overlap between: (subtext: Akad. der bildenden Künste in Wien, ent: [200, 234, 'ORG']), and (subtext: Wien, ent: [230, 234, 'ORG']); merged into (200, 234, 'ORG').
+INFO:root:Found overlap between: (subtext: Akad. in Düsseldorf, ent: [292, 311, 'ORG']), and (subtext: Düsseldorf, ent: [301, 311, 'ORG']); merged into (292, 311, 'ORG').
+INFO:root:Found overlap between: (subtext: Laibacher, ent: [36, 45, 'LOC']), and (subtext: Laibacher Normalschule, ent: [36, 58, 'ORG']); merged into (36, 58, 'LOC').
+INFO:root:Found conflicting entities at subtext: Laibacher, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Triest, ent: [104, 110, 'LOC']), and (subtext: Triest u., ent: [104, 113, 'LOC']); merged into (104, 113, 'LOC').
+INFO:root:Found overlap between: (subtext: Prager, ent: [41, 47, 'LOC']), and (subtext: Prager Polytechnikum, ent: [41, 61, 'ORG']); merged into (41, 61, 'LOC').
+INFO:root:Found conflicting entities at subtext: Prager, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Höheren Bundeslehranstalt und Bundesversuchsstation für Wein-, Obst- und Gartenbau in Klosterneuburg, ent: [50, 150, 'ORG']), and (subtext: Klosterneuburg, ent: [136, 150, 'LOC']); merged into (50, 150, 'ORG').
+INFO:root:Found conflicting entities at subtext: Höheren Bundeslehranstalt und Bundesversuchsstation für Wein-, Obst- und Gartenbau in Klosterneuburg, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: an der Kunstgewerbeschule, ent: [102, 127, 'LOC']), and (subtext: an der Kunstgewerbeschule, ent: [102, 127, 'ORG']); merged into (102, 127, 'LOC').
+INFO:root:Found conflicting entities at subtext: an der Kunstgewerbeschule, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: an der Kunstgewerbeschule, ent: [102, 127, 'LOC']), and (subtext: Kunstgewerbeschule, ent: [109, 127, 'ORG']); merged into (102, 127, 'LOC').
+INFO:root:Found conflicting entities at subtext: an der Kunstgewerbeschule, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Wien, ent: [294, 298, 'LOC']), and (subtext: Wien 6, ent: [294, 300, 'LOC']); merged into (294, 300, 'LOC').
+INFO:root:Found overlap between: (subtext: Univ. Budapest, ent: [13, 27, 'ORG']), and (subtext: Budapest, ent: [19, 27, 'LOC']); merged into (13, 27, 'ORG').
+INFO:root:Found conflicting entities at subtext: Univ. Budapest, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Univ. Heidelberg, ent: [80, 96, 'ORG']), and (subtext: Heidelberg, ent: [86, 96, 'LOC']); merged into (80, 96, 'ORG').
+INFO:root:Found conflicting entities at subtext: Univ. Heidelberg, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Wien, ent: [174, 178, 'LOC']), and (subtext: Wien 1, ent: [174, 180, 'LOC']); merged into (174, 180, 'LOC').
+INFO:root:Found overlap between: (subtext: Frankfurter, ent: [83, 94, 'LOC']), and (subtext: Frankfurter Nationalversammlung, ent: [83, 114, 'ORG']); merged into (83, 114, 'LOC').
+INFO:root:Found conflicting entities at subtext: Frankfurter, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Univ. Freiburg, ent: [28, 42, 'ORG']), and (subtext: Freiburg, ent: [34, 42, 'LOC']); merged into (28, 42, 'ORG').
+INFO:root:Found conflicting entities at subtext: Univ. Freiburg, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Dt. Univ. Prag, ent: [7, 21, 'ORG']), and (subtext: Prag, ent: [17, 21, 'LOC']); merged into (7, 21, 'ORG').
+INFO:root:Found conflicting entities at subtext: Dt. Univ. Prag, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Bombay, ent: [107, 113, 'LOC']), and (subtext: Bombay (Mumbay), ent: [107, 122, 'LOC']); merged into (107, 122, 'LOC').
+INFO:root:Found overlap between: (subtext: Berliner, ent: [211, 219, 'LOC']), and (subtext: Berliner Residenztheater, ent: [211, 235, 'ORG']); merged into (211, 235, 'LOC').
+INFO:root:Found conflicting entities at subtext: Berliner, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Dt. Staatsmin. für Böhmen und Mähren in Prag, ent: [4, 48, 'ORG']), and (subtext: Prag, ent: [44, 48, 'LOC']); merged into (4, 48, 'ORG').
+INFO:root:Found conflicting entities at subtext: Dt. Staatsmin. für Böhmen und Mähren in Prag, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: n. ö., ent: [65, 70, 'LOC']), and (subtext: n. ö. Landesregierung, ent: [65, 86, 'ORG']); merged into (65, 86, 'LOC').
+INFO:root:Found conflicting entities at subtext: n. ö., 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Evang. Akad. in Debreczin, ent: [4, 29, 'ORG']), and (subtext: Debreczin, ent: [20, 29, 'LOC']); merged into (4, 29, 'ORG').
+INFO:root:Found conflicting entities at subtext: Evang. Akad. in Debreczin, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Dt. Univ. Prag, ent: [28, 42, 'ORG']), and (subtext: Prag, ent: [38, 42, 'LOC']); merged into (28, 42, 'ORG').
+INFO:root:Found conflicting entities at subtext: Dt. Univ. Prag, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Zentralvereinigung der Architekten Österr., ent: [21, 63, 'ORG']), and (subtext: Zentralvereinigung der Architekten Österr. S., ent: [21, 66, 'ORG']); merged into (21, 66, 'ORG').
+INFO:root:Found overlap between: (subtext: Journalisten- und Schriftstellerver. Concordia, ent: [42, 88, 'ORG']), and (subtext: Concordia, ent: [79, 88, 'ORG']); merged into (42, 88, 'ORG').
+INFO:root:Found overlap between: (subtext: Görgo (Spišský Hrhov), ent: [59, 80, 'LOC']), and (subtext: Spišský Hrhov, ent: [66, 79, 'LOC']); merged into (59, 80, 'LOC').
+INFO:root:Found overlap between: (subtext: Deutschen Theaters Berlin, ent: [46, 71, 'ORG']), and (subtext: Berlin, ent: [65, 71, 'LOC']); merged into (46, 71, 'ORG').
+INFO:root:Found conflicting entities at subtext: Deutschen Theaters Berlin, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Wien, ent: [42, 46, 'LOC']), and (subtext: Wien u., ent: [42, 49, 'LOC']); merged into (42, 49, 'LOC').
+INFO:root:Found overlap between: (subtext: Akad. in München, ent: [63, 79, 'ORG']), and (subtext: München, ent: [72, 79, 'ORG']); merged into (63, 79, 'ORG').
+INFO:root:Found overlap between: (subtext: Atelier Pilotys, ent: [164, 179, 'ORG']), and (subtext: Pilotys, ent: [172, 179, 'PER']); merged into (164, 179, 'ORG').
+INFO:root:Found conflicting entities at subtext: Atelier Pilotys, 'ORG' and: 'PER'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Kunstgewerbeschule in Graz, ent: [44, 70, 'ORG']), and (subtext: Graz, ent: [66, 70, 'LOC']); merged into (44, 70, 'ORG').
+INFO:root:Found conflicting entities at subtext: Kunstgewerbeschule in Graz, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Wien, ent: [172, 176, 'LOC']), and (subtext: Wien I., ent: [172, 179, 'LOC']); merged into (172, 179, 'LOC').
+INFO:root:Found overlap between: (subtext: Fürstlich Salmschen Eisenwerke in Zwittau b. Brünn, ent: [4, 54, 'ORG']), and (subtext: Zwittau b. Brünn, ent: [38, 54, 'LOC']); merged into (4, 54, 'ORG').
+INFO:root:Found conflicting entities at subtext: Fürstlich Salmschen Eisenwerke in Zwittau b. Brünn, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Wien, ent: [52, 56, 'LOC']), and (subtext: Wien 2, ent: [52, 58, 'LOC']); merged into (52, 58, 'LOC').
+INFO:root:Found overlap between: (subtext: Ludwig (II.), ent: [66, 78, 'PER']), and (subtext: Ludwig (II.) S., ent: [66, 81, 'PER']); merged into (66, 81, 'PER').
+INFO:root:Found overlap between: (subtext: Vereinigung der dt.mähr. bildenden Künstler „Scholle, ent: [218, 270, 'ORG']), and (subtext: Scholle, ent: [263, 270, 'ORG']); merged into (218, 270, 'ORG').
+INFO:root:Found overlap between: (subtext: Wien, ent: [67, 71, 'LOC']), and (subtext: Wien, ent: [67, 71, 'ORG']); merged into (67, 71, 'LOC').
+INFO:root:Found conflicting entities at subtext: Wien, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Heidelberg, ent: [73, 83, 'LOC']), and (subtext: Heidelberg, ent: [73, 83, 'ORG']); merged into (73, 83, 'LOC').
+INFO:root:Found conflicting entities at subtext: Heidelberg, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Jena, ent: [85, 89, 'LOC']), and (subtext: Jena, ent: [85, 89, 'ORG']); merged into (85, 89, 'LOC').
+INFO:root:Found conflicting entities at subtext: Jena, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Göttingen, ent: [94, 103, 'LOC']), and (subtext: Göttingen, ent: [94, 103, 'ORG']); merged into (94, 103, 'LOC').
+INFO:root:Found conflicting entities at subtext: Göttingen, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: München, ent: [14, 21, 'LOC']), and (subtext: München, ent: [14, 21, 'ORG']); merged into (14, 21, 'LOC').
+INFO:root:Found conflicting entities at subtext: München, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Wien, ent: [57, 61, 'LOC']), and (subtext: Wien 1, ent: [57, 63, 'LOC']); merged into (57, 63, 'LOC').
+INFO:root:Found overlap between: (subtext: Wien, ent: [95, 99, 'LOC']), and (subtext: Wien 1, ent: [95, 101, 'LOC']); merged into (95, 101, 'LOC').
+INFO:root:Found overlap between: (subtext: mähr.-ständischen Akad. in Olmütz, ent: [37, 70, 'ORG']), and (subtext: Olmütz, ent: [64, 70, 'LOC']); merged into (37, 70, 'ORG').
+INFO:root:Found conflicting entities at subtext: mähr.-ständischen Akad. in Olmütz, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Künstler- und Marionettentheater in Salzburg, ent: [111, 155, 'ORG']), and (subtext: Salzburg, ent: [147, 155, 'LOC']); merged into (111, 155, 'ORG').
+INFO:root:Found conflicting entities at subtext: Künstler- und Marionettentheater in Salzburg, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:####################### creating spacy docs and aligning tokens.
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Berlin', aligned tokens: 'Berlin-Zehlendorf'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Hermann Helmer', aligned tokens: '→Hermann Helmer'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ferdinand II. Fellner', aligned tokens: '→Ferdinand II. Fellner'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Franz Schmeykal', aligned tokens: '→Franz Schmeykal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Kisfaludy', aligned tokens: 'Kisfaludy-'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Petöfi', aligned tokens: 'Petöfi-'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Eduard Peithner v. Lichtenfels', aligned tokens: '→Eduard Peithner v. Lichtenfels'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Christian Griepenkerl', aligned tokens: '→Christian Griepenkerl'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Gil Blas', aligned tokens: 'Ztg.(„Gil Blas'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Edmund von Hellmer', aligned tokens: '→Edmund von Hellmer'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Wilhelm Jelinek', aligned tokens: '→Wilhelm Jelinek'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Bildhauer', aligned tokens: 'Bildhauer-'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Rudolf Kremlička', aligned tokens: '→Rudolf Kremlička'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Schubert', aligned tokens: 'Schubert-Denkmals'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Tegetthoff', aligned tokens: 'Tegetthoff-Denkmal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Friedrich Ohmann', aligned tokens: '→Friedrich Ohmann'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Leopold Bauers', aligned tokens: '→Leopold Bauers'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Josef Kainz', aligned tokens: '→Josef Kainz'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Tegetthoff', aligned tokens: 'Tegetthoff-Denkmal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Zdenko Skraup', aligned tokens: '→Zdenko Skraup'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Guido Goldschmiedt', aligned tokens: '→Guido Goldschmiedt'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Kossuth', aligned tokens: 'Kossuth-Denkmal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Heinrich Laube', aligned tokens: '→Heinrich Laube'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Friedrich Frh. von Schmidt', aligned tokens: '→Friedrich Frh. von Schmidt'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ludwig Baumann', aligned tokens: '→Ludwig Baumann'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Josef-Werndl', aligned tokens: 'Josef-Werndl-Denkmal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Franz Joseph I.', aligned tokens: '→Franz Joseph I.'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Flitsch', aligned tokens: 'Flitsch-Karfreit-Tolmein'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Karfreit', aligned tokens: 'Flitsch-Karfreit-Tolmein'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Tolmein', aligned tokens: 'Flitsch-Karfreit-Tolmein'
+INFO:root:Because of duplication or overlap, span data was converted from: ['Flitsch-Karfreit-Tolmein', 'Flitsch-Karfreit-Tolmein', 'Flitsch-Karfreit-Tolmein', 'Venetiens'], into: ['Flitsch-Karfreit-Tolmein', 'Venetiens']
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Dürer', aligned tokens: 'Dürer-Statue'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Florentine Förster, geb. Jarklowska', aligned tokens: '→Florentine Förster, geb. Jarklowska'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Wolfgang Himmelbaur', aligned tokens: '→Wolfgang Himmelbaur'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Grillparzer', aligned tokens: 'Grillparzer-Büste'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Isaac (Isaak) Mautner', aligned tokens: '→Isaac (Isaak) Mautner'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Konrad Mautner', aligned tokens: '→Konrad Mautner'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Stephan (Stefan) Mautner', aligned tokens: '→Stephan (Stefan) Mautner'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Josef Kainz', aligned tokens: '→Josef Kainz'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Marie Geistinger', aligned tokens: '→Marie Geistinger'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ludwig Baumann', aligned tokens: '→Ludwig Baumann'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Friedrich Ohmann', aligned tokens: '→Friedrich Ohmann'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'C. Rahl', aligned tokens: 'C. Rahl,1867'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Franz T. d. Ä.', aligned tokens: '→Franz T. d. Ä.'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Anastasius-Grün', aligned tokens: 'Anastasius-Grün-Denkmal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Hamerling', aligned tokens: 'Hamerling-Denkmal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Rom', aligned tokens: 'Rom-Stipendium'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Triest u.', aligned tokens: 'Triest u.a.m'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Eduard van der Nüll', aligned tokens: '→Eduard van der Nüll'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'August Sicard von Sicardsburg', aligned tokens: '→August Sicard von Sicardsburg'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Theodor Herzl', aligned tokens: '→Theodor Herzl'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Max Nordau', aligned tokens: '→Max Nordau'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Gustav Heckenast', aligned tokens: '→Gustav Heckenast'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Franz Joseph', aligned tokens: '→Franz Joseph'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Italien', aligned tokens: 'Italien-'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Franz Schubert', aligned tokens: '→Franz Schubert'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Valsugana', aligned tokens: 'Valsugana-Bahn'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: '1873 des Österreichischen Ingenieur- und Architekten', aligned tokens: '1873 des Österreichischen Ingenieur- und Architekten-Vereins'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Gutenberg', aligned tokens: 'Gutenberg-Denkmals'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Rußland', aligned tokens: 'Rußland-'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Orient', aligned tokens: 'Orient-Reise'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Villach', aligned tokens: 'Villach–Franzensfeste'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Fiume', aligned tokens: 'Pivka)–Fiume'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Maria Theresien-Ordens', aligned tokens: 'Militär-Maria Theresien-Ordens'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Gaue Nieder', aligned tokens: 'Gaue Nieder-'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: '92', aligned tokens: '1869–92'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Deák', aligned tokens: 'Deák-Partei'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Partei', aligned tokens: 'Deák-Partei'
+INFO:root:Because of duplication or overlap, span data was converted from: ['1869–92', 'Deák-Partei', 'Deák-Partei', 'Nemzeti Párt'], into: ['1869–92', 'Deák-Partei', 'Nemzeti Párt']
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Hans Makart', aligned tokens: '→Hans Makart'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Alexander Emanuel Köchert', aligned tokens: '→Alexander Emanuel Köchert'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Karl F. M. v. M', aligned tokens: 'Karl F. M. v. M.'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Grillparzer', aligned tokens: 'Grillparzer-Denkmal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Josef Mössmer', aligned tokens: '→Josef Mössmer'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Wien', aligned tokens: 'Wien-Wieden'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Kornél (I.) Ábrányi von Lászlófalva und Mikeföld', aligned tokens: '→Kornél (I.) Ábrányi von Lászlófalva und Mikeföld'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Vörösmarty', aligned tokens: 'Vörösmarty-Denkmal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ignác Alpár', aligned tokens: 'Ignác Alpár-Denkmal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Emil Jakob Schindler', aligned tokens: '→Emil Jakob Schindler'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'August Schaeffer von Wienwald', aligned tokens: '→August Schaeffer von Wienwald'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Franz Exner', aligned tokens: '→Franz Exner'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Herrenhaus', aligned tokens: 'Herrenhaus-Mitgl'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'IR 78', aligned tokens: 'IR 78.'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Kotor', aligned tokens: 'Kotor)–Lovcen'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Lovcen', aligned tokens: 'Kotor)–Lovcen'
+INFO:root:Because of duplication or overlap, span data was converted from: ['Kotor)–Lovcen', 'Kotor)–Lovcen', 'Cetinje'], into: ['Kotor)–Lovcen', 'Cetinje']
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Theophil Freiherr von Hansens', aligned tokens: '→Theophil Freiherr von Hansens'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Auguste Fickert', aligned tokens: '→Auguste Fickert'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Johann Nepomuk Ender', aligned tokens: '→Johann Nepomuk Ender'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Leopold Kupelwieser', aligned tokens: '→Leopold Kupelwieser'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ernst K', aligned tokens: 'Ernst K.'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Marie Freifrau Ebner von Eschenbach', aligned tokens: '→Marie Freifrau Ebner von Eschenbach'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Heinrich Anschütz', aligned tokens: '→Heinrich Anschütz'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Liebenberg', aligned tokens: 'Liebenberg-Denkmal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Joseph Johann von Littrow', aligned tokens: '→Joseph Johann von Littrow'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Adolf Exner', aligned tokens: '→Adolf Exner'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ferdinand von Arlt', aligned tokens: '→Ferdinand von Arlt'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ferdinand Lotheissen', aligned tokens: '→Ferdinand Lotheissen'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Victor von Lang', aligned tokens: '→Victor von Lang'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Carl Hasenauer', aligned tokens: '→Carl Hasenauer'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Emil (I.) Ábrányi von Lászlófalva und Mikeföld', aligned tokens: '→Emil (I.) Ábrányi von Lászlófalva und Mikeföld'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Kornél (II.) Ábrányi von Lászlófalva und Mikeföld', aligned tokens: '→Kornél (II.) Ábrányi von Lászlófalva und Mikeföld'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Bild', aligned tokens: 'Bild“-Zeitung'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Heinrich von Drasche-Wartinberg', aligned tokens: '→Heinrich von Drasche-Wartinberg'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Max Katscher', aligned tokens: '→Max Katscher'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Jan Preisler', aligned tokens: '→Jan Preisler'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Josefsthal', aligned tokens: 'Josefsthal-Kosmanos'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Kosmanos', aligned tokens: 'Josefsthal-Kosmanos'
+INFO:root:Because of duplication or overlap, span data was converted from: ['Wien', 'Conservatoire des arts et métiers', 'Paris', 'Europa', 'L.sche Fa.', 'Josefsthal-Kosmanos', 'Josefsthal-Kosmanos'], into: ['Wien', 'Conservatoire des arts et métiers', 'Paris', 'Europa', 'L.sche Fa.', 'Josefsthal-Kosmanos']
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Antonín Slavíček', aligned tokens: '→Antonín Slavíček'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Otakar Lebeda', aligned tokens: '→Otakar Lebeda'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Jindřich Prucha', aligned tokens: '→Jindřich Prucha'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Limanowa', aligned tokens: 'Limanowa-Lapanow'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Lapanow', aligned tokens: 'Limanowa-Lapanow'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Gorlice', aligned tokens: 'Gorlice-Tarnów'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Tarnów', aligned tokens: 'Gorlice-Tarnów'
+INFO:root:Because of duplication or overlap, span data was converted from: ['Limanowa-Lapanow', 'Limanowa-Lapanow', 'Gorlice-Tarnów', 'Gorlice-Tarnów', 'Brest-Litowsk'], into: ['Limanowa-Lapanow', 'Gorlice-Tarnów', 'Brest-Litowsk']
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Gottfried Sempers', aligned tokens: '→Gottfried Sempers'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Künstlerhaus', aligned tokens: 'Künstlerhaus-Mitgl'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Christian Griepenkerl', aligned tokens: '→Christian Griepenkerl'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Eduard Bitterlich', aligned tokens: '→Eduard Bitterlich'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'RR', aligned tokens: 'RR-Abg'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Carpeaux', aligned tokens: 'Carpeaux-Richtung'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Georg Simon Freiherr von Sina zu Hodos und Kizdia', aligned tokens: '→Georg Simon Freiherr von Sina zu Hodos und Kizdia'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Heinrich Goldemund', aligned tokens: '→Heinrich Goldemund'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Heinrich Frh. von Ferstel', aligned tokens: '→Heinrich Frh. von Ferstel'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Dtld', aligned tokens: 'Nord-Dtld'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Wien', aligned tokens: 'Wien-Wieden'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Johann II. Fürst von und zu Liechtenstein', aligned tokens: '→Johann II. Fürst von und zu Liechtenstein'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Andreas Ady', aligned tokens: '→Andreas Ady'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Friedrich Ohmann', aligned tokens: '→Friedrich Ohmann'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Josef Mössmer', aligned tokens: '→Josef Mössmer'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Rom', aligned tokens: 'Rom-Aufenthalt'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Jakob Alt', aligned tokens: '→Jakob Alt'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Franz Alt', aligned tokens: '→Franz Alt'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ferdinand Maximilian', aligned tokens: '→Ferdinand Maximilian'
+INFO:root:count of converted text-entity rows: 5552, count not converted: 0
+INFO:root:####################### converting dev data
+INFO:root:####################### merging overlapping entities
+INFO:root:Found overlap between: (subtext: Altenberg, ent: [33, 42, 'LOC']), and (subtext: Altenberg bei Greifenstein, ent: [33, 59, 'LOC']); merged into (33, 59, 'LOC').
+INFO:root:Found overlap between: (subtext: Münchner, ent: [18, 26, 'LOC']), and (subtext: Münchner Akad., ent: [18, 32, 'ORG']); merged into (18, 32, 'LOC').
+INFO:root:Found conflicting entities at subtext: Münchner, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Berliner Bauakad., ent: [96, 113, 'ORG']), and (subtext: Berliner Bauakad. Ab, ent: [96, 116, 'ORG']); merged into (96, 116, 'ORG').
+INFO:root:Found overlap between: (subtext: Prager, ent: [26, 32, 'LOC']), and (subtext: Prager Polytechnikum, ent: [26, 46, 'ORG']); merged into (26, 46, 'LOC').
+INFO:root:Found conflicting entities at subtext: Prager, 'LOC' and: 'ORG'. Took the first one: 'LOC'
+INFO:root:Found overlap between: (subtext: Bergdepartement der Oberen Etsch, ent: [64, 96, 'ORG']), and (subtext: Oberen Etsch, ent: [84, 96, 'LOC']); merged into (64, 96, 'ORG').
+INFO:root:Found conflicting entities at subtext: Bergdepartement der Oberen Etsch, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:####################### creating spacy docs and aligning tokens.
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Abstinenzler', aligned tokens: 'Abstinenzler-'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Los-von-Rom', aligned tokens: 'Los-von-Rom“-Bewegung'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'des Franz Joseph', aligned tokens: 'des Franz Joseph-Ordens'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ferdinand I. Fellner', aligned tokens: '→Ferdinand I. Fellner'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Anton (Eugen) Dreher', aligned tokens: '→Anton (Eugen) Dreher'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Maria-Theresien-Ordens.', aligned tokens: 'Milit.-Maria-Theresien-Ordens.'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Schubert', aligned tokens: 'Schubert-Denkmal'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Heinrich Frh. von Ferstel', aligned tokens: '→Heinrich Frh. von Ferstel'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Künstlerhaus', aligned tokens: 'Künstlerhaus-Mitgl'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Josef Mössmer', aligned tokens: '→Josef Mössmer'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Josef Klieber', aligned tokens: '→Josef Klieber'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Karl Rahl', aligned tokens: '→Karl Rahl'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Eduard S.', aligned tokens: '→Eduard S.'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Josefine Schlögl', aligned tokens: '→Josefine Schlögl'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Friedrich Schlögl', aligned tokens: '→Friedrich Schlögl'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Franz Dafert Ritter von Sensel-Timmer', aligned tokens: '→Franz Dafert Ritter von Sensel-Timmer'
+INFO:root:count of converted text-entity rows: 694, count not converted: 0
+INFO:root:####################### converting eval data
+INFO:root:####################### merging overlapping entities
+INFO:root:Found overlap between: (subtext: Akad. d. bild. Künste nach München, ent: [39, 73, 'ORG']), and (subtext: München, ent: [66, 73, 'LOC']); merged into (39, 73, 'ORG').
+INFO:root:Found conflicting entities at subtext: Akad. d. bild. Künste nach München, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Dt. Univ. in Prag, ent: [23, 40, 'ORG']), and (subtext: Prag, ent: [36, 40, 'LOC']); merged into (23, 40, 'ORG').
+INFO:root:Found conflicting entities at subtext: Dt. Univ. in Prag, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Mitgl. des Wr. Künstlerhauses, ent: [0, 29, 'ORG']), and (subtext: Wr. Künstlerhauses, ent: [11, 29, 'ORG']); merged into (0, 29, 'ORG').
+INFO:root:Found overlap between: (subtext: Atelier E., ent: [9, 19, 'ORG']), and (subtext: Atelier E. v. Hellmers, ent: [9, 31, 'ORG']); merged into (9, 31, 'ORG').
+INFO:root:Found overlap between: (subtext: Atelier E., ent: [9, 19, 'ORG']), and (subtext: Atelier E. v. Hellmers, ent: [9, 31, 'PER']); merged into (9, 31, 'ORG').
+INFO:root:Found conflicting entities at subtext: Atelier E., 'ORG' and: 'PER'. Took the first one: 'ORG'
+INFO:root:Found overlap between: (subtext: Schweiz, ent: [58, 65, 'LOC']), and (subtext: Schweiz u., ent: [58, 68, 'LOC']); merged into (58, 68, 'LOC').
+INFO:root:Found overlap between: (subtext: Obergymnasium der Piaristen, ent: [104, 131, 'ORG']), and (subtext: Obergymnasium der Piaristen in Pest, ent: [104, 139, 'ORG']); merged into (104, 139, 'ORG').
+INFO:root:Found overlap between: (subtext: Dt. Landestheater in Prag, ent: [156, 181, 'ORG']), and (subtext: Prag, ent: [177, 181, 'LOC']); merged into (156, 181, 'ORG').
+INFO:root:Found conflicting entities at subtext: Dt. Landestheater in Prag, 'ORG' and: 'LOC'. Took the first one: 'ORG'
+INFO:root:####################### creating spacy docs and aligning tokens.
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ferdinand I. Fellner', aligned tokens: '→Ferdinand I. Fellner'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ferdinand III. Fellner', aligned tokens: '→Ferdinand III. Fellner'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Friedrich Jakob Gsell', aligned tokens: '→Friedrich Jakob Gsell'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ludwig Lobmeyr', aligned tokens: '→Ludwig Lobmeyr'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Bosnien', aligned tokens: 'Bosnien-Feldzug'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Ludwig Förster', aligned tokens: '→Ludwig Förster'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Albert Graf Apponyi', aligned tokens: '→Albert Graf Apponyi'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Dezső Szilágyi', aligned tokens: '→Dezső Szilágyi'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Wr. Piaristen', aligned tokens: 'Wr. Piaristen-bzw'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Friedrich G.', aligned tokens: 'Friedrich G.(l813–85'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Josef Ritter von Führich', aligned tokens: '→Josef Ritter von Führich'
+INFO:root:Because of duplication or overlap, span data was converted from: ['Szent-György-Ábrány', 'Obergymnasium der Piaristen in Pest', 'Pest'], into: ['Szent-György-Ábrány', 'Obergymnasium der Piaristen in Pest']
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Cajetan Frh. von Felder', aligned tokens: '→Cajetan Frh. von Felder'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'August Eisenmenger', aligned tokens: '→August Eisenmenger'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Franz Graf von Lützow', aligned tokens: '→Franz Graf von Lützow'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Gustav Ranzoni', aligned tokens: '→Gustav Ranzoni'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Moritz von Gerold', aligned tokens: '→Moritz von Gerold'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Wr. Neustadt', aligned tokens: 'Wr. Neustadt–Linz'
+INFO:root:Minor mismatch between original text of assigned entities and their aligned tokens. The tokens will be used for further processing. Original sub text: 'Linz', aligned tokens: 'Neustadt–Linz'
+INFO:root:Because of duplication or overlap, span data was converted from: ['Wr. Neustadt–Linz', 'Neustadt–Linz'], into: ['Wr. Neustadt–Linz']
+INFO:root:count of converted text-entity rows: 695, count not converted: 0
