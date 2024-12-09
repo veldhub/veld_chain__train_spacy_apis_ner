@@ -1,0 +1,14 @@
+x-veld:
+  chain:
+
+services:
+  veld_create_config:
+    extends:
+      file: ./code/veld_code__train_spacy_ner/veld_create_config.yaml
+      service: veld_create_config
+    volumes:
+      - ./data/configs/:/veld/output/
+    environment:
+      model_base: "de_core_news_lg"
+      out_config_file: "config_test.cfg"
+
