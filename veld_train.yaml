@@ -9,16 +9,17 @@ x-veld:
 services:
   veld_train:
     extends:
-      file: ./veld_code_7_train_spacy_ner/veld_train.yaml
+      file: ./code/veld_code__train_spacy_ner/veld_train.yaml
       service: veld_train
     volumes:
-      - ./spacy_docbin/:/veld/input/
-      - ./veld_data_6_apis_ner_models/models/m4/:/veld/output/
+      - ./data/docbin/:/veld/input/docbin/
+      - ./data/training_configs/:/veld/input/config/
+      - ./data/models/m1/:/veld/output/
     environment:
       in_train_docbin_file: "train.spacy"
       in_dev_docbin_file: "dev.spacy"
       in_eval_docbin_file: "eval.spacy"
-      out_model_folder: "model"
-      out_train_log_file: "logs/train.log"
-      out_eval_log_file: "logs/eval.log"
+      in_spacy_config: "config1.cfg"
+      out_train_log_file: "train.log"
+      out_eval_log_file: "eval.log"
 
