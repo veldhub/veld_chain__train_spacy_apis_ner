@@ -18,5 +18,5 @@ services:
     environment:
       in_json_file: "cleaned_simplified.json"
       out_log_file: "veld_convert.log"
-      model_to_download: "de_core_news_lg"
+      model_base: "de_core_news_lg"
 

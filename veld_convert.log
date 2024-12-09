@@ -1,4 +1,3 @@
-INFO:root:loaded model de_core_news_lg from cache.
 INFO:root:####################### reading args
 INFO:root:perc_train: 80, perc_dev: 10, perc_eval: 10, seed: 42
 INFO:root:####################### converting train data
