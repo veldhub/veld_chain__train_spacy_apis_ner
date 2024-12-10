@@ -1,0 +1,16 @@
+x-veld:
+  chain:
+    description: "pushing spacy model to huggingface."
+    topics: "NLP"
+
+services:
+  veld_publish_to_hf:
+    extends:
+      file: ./code/veld_code__spacy/veld_publish_to_hf.yaml
+      service: veld_publish_to_hf
+    volumes:
+      - ./data/models/m_test/model-best/:/veld/input/
+    environment:
+      model_name: "m_test"
+      version: "1337"
+
