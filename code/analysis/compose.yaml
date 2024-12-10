@@ -1,11 +1,11 @@
 
 services:
-  misc:
+  veld_analysis:
     build: .
     volumes:
-      - ../:/home/
+      - ./src/:/veld/code/
     ports:
       - 8888:8888
-    working_dir: /home/
-    command: jupyter notebook --ip='*' --NotebookApp.token='' --NotebookApp.password=''
+    working_dir: /veld/code/
+    command: jupyter notebook --ip='*' --NotebookApp.token='' --NotebookApp.password='' --allow-root
 
