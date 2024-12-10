@@ -9,6 +9,9 @@ services:
     volumes:
       - ./data/configs/:/veld/output/
     environment:
-      model_base: "de_core_news_lg"
       out_config_file: "config_test.cfg"
+      lang: de
+      ner: true
+      optimize_efficiency: true
+      pretraining: true
 
