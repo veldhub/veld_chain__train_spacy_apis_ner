@@ -14,7 +14,7 @@ services:
     volumes:
       - ./data/docbin/:/veld/input/docbin/
       - ./data/configs/:/veld/input/config/
-      - ./data/models/m_test/:/veld/output/
+      - ./data/veld_data__apis_spacy_ner_models/m1/:/veld/output/
     environment:
       in_train_docbin_file: "train.spacy"
       in_dev_docbin_file: "dev.spacy"
