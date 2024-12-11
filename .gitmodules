@@ -4,3 +4,6 @@
 [submodule "code/veld_code__spacy"]
 	path = code/veld_code__spacy
 	url = https://github.com/veldhub/veld_code__spacy.git
+[submodule "data/veld_data__spacy_apis_ner"]
+	path = data/veld_data__spacy_apis_ner
+	url = https://github.com/veldhub/veld_data__spacy_apis_ner.git
