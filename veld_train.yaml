@@ -14,12 +14,12 @@ services:
     volumes:
       - ./data/docbin/:/veld/input/docbin/
       - ./data/configs/:/veld/input/config/
-      - ./data/veld_data__apis_spacy_ner_models/m1/:/veld/output/
+      - ./data/veld_data__apis_spacy_ner_models/m2/:/veld/output/
     environment:
       in_train_docbin_file: "train.spacy"
       in_dev_docbin_file: "dev.spacy"
       in_eval_docbin_file: "eval.spacy"
-      in_spacy_config: "config_1.cfg"
+      in_spacy_config: "config_2.cfg"
       model_base: "de_core_news_lg"
       out_train_log_file: "train.log"
       out_eval_log_file: "eval.log"
