@@ -9,8 +9,8 @@ services:
       file: ./code/veld_code__spacy/veld_publish_to_hf.yaml
       service: veld_publish_to_hf
     volumes:
-      - ./data/models/m_test/model-best/:/veld/input/
+      - ./data/veld_data__apis_spacy_ner_models/m1/model-best/:/veld/input/
     environment:
-      model_name: "m_test"
-      version: "1337"
+      model_name: "m1"
+      version: "1.0"
 
