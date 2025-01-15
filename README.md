@@ -20,7 +20,7 @@ The following chain velds were used. Open the respective veld yaml file for more
 
 **[./veld_convert.yaml](./veld_convert.yaml)** 
 
-XX
+Cleaning and converting json into spaCy docbin
 
 ```
 docker compose -f veld_convert.yaml up
@@ -28,7 +28,8 @@ docker compose -f veld_convert.yaml up
 
 **[./veld_create_config.yaml](./veld_create_config.yaml)** 
 
-XX
+Creates a spacy training config according to passed arguments. See 
+https://spacy.io/usage/training/#config for the target outcome.
 
 ```
 docker compose -f veld_create_config.yaml up
@@ -36,7 +37,7 @@ docker compose -f veld_create_config.yaml up
 
 **[./veld_train.yaml](./veld_train.yaml)** 
 
-XX
+A NER trainig setup, utilizing spaCy 3's config system.
 
 ```
 docker compose -f veld_train.yaml up
@@ -44,7 +45,7 @@ docker compose -f veld_train.yaml up
 
 **[./veld_analysis.yaml](./veld_analysis.yaml)** 
 
-XX
+Analyses out-of vocabulary occurrences of training data.
 
 ```
 docker compose -f veld_analysis.yaml up
@@ -52,8 +53,9 @@ docker compose -f veld_analysis.yaml up
 
 **[./veld_publish_to_hf.yaml](./veld_publish_to_hf.yaml)** 
 
-XX
+Pushing spacy model to huggingface.
 
 ```
 docker compose -f veld_publish_to_hf.yaml up
 ```
+
