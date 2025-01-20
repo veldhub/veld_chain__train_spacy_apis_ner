@@ -1,4 +1,4 @@
-# veld_chain__train_spacy_apis_ner
+# ![veld chain](https://raw.githubusercontent.com/veldhub/.github/refs/heads/main/images/symbol_V_letter.png) veld_chain__train_spacy_apis_ner
 
 This repo contains [chain velds](https://zenodo.org/records/13322913) encapsulating a spacy NER
 training setup on APIS data.
